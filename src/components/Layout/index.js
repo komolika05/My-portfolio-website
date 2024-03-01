@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar'
 import './index.scss'
 
 const Layout = () => {
+  console.log('layout')
   return (
     <div className="App">
       <Sidebar />
