@@ -1,25 +1,29 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss'
+import { useEffect, useState, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Layout = () => {
-  console.log('layout')
+  const aboutSectionRef = useRef(null)
+  const location = useLocation()
+
+  useEffect(() => {
+    if (aboutSectionRef.current) {
+      aboutSectionRef.current.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  }, [location.pathname])
+
   return (
     <div className="App">
       <Sidebar />
       <div className="page">
-        <span className="tags top-tags">&lt;body&gt;</span>
-
         <Outlet />
-
-        <span className="tags bottom-tags">
-          &lt;/body&gt;
-          <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
-        </span>
+        <br />
       </div>
     </div>
   )
 }
-
 export default Layout

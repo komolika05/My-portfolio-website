@@ -33,17 +33,15 @@ const About = () => {
           />
         </h1>
         <p>
-          I'm a very ambitious front-end developer looking for a role in an
-          established IT company with the opportunity to work with the latest
-          technologies on challenging and diverse projects.
+          Starting my journey in finance industry and then getting to know about coding world, I got passionate about coding. I started with basic HTML , CSS and by the time move forward with advance technologies such as React, Redux, MERN, etc. 
         </p>
         <p>
           I'm quiet confident, naturally curious, and perpetually working on
           improving my chops one design problem at a time.
         </p>
         <p>
-          I am a finance graduate with tech passion, looking for some great
-          opprtunities to excel my skills.
+          I am a finance graduate with tech skillset, looking for some great
+          opprtunities to learn something new.
         </p>
       </div>
 
