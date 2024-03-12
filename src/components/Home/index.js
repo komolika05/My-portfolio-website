@@ -7,7 +7,7 @@ import AnimatedText from './AnimatedText'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['o', 'm', 'o', 'l', 'i', 'k', 'a']
+  const nameArray = ['o', 'm', 'o', 'l', 'i', 'k', 'a','!']
   const jobArray = [
     'w',
     'e',

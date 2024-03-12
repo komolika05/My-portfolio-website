@@ -12,7 +12,7 @@ function Card({ projectName, projectSubtitle, title, text }) {
             style={{
               color: 'white',
               marginBottom: '6rem',
-              marginLeft: '8px',
+              marginLeft: '2px',
               fontSize: '17px',
             }}
           >
