@@ -123,13 +123,13 @@
     background: #ffd700;
   }
   
-  /* Animations and timing delays */
+ 
   .animate {
     animation-duration: 0.7s;
     animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
     animation-fill-mode: backwards;
   }
-  /* Pop In */
+  
   .pop {
     animation-name: pop;
   }
@@ -144,7 +144,7 @@
     }
   }
   
-  /* Slide In */
+  
   .slide {
     animation-name: slide;
   }
@@ -159,7 +159,7 @@
     }
   }
   
-  /* Slide Left */
+ 
   .slide-left {
     animation-name: slide-left;
   }
