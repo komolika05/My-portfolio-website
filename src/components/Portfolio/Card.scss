@@ -103,9 +103,20 @@
     white-space: normal;
     overflow-y: scroll;
   }
+
+  .text-para .project-button {
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: #034569;
+  color: #ffd700;
+  padding: 9px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
   
   .wrap:hover .overlay {
     transform: translateX(-60vmin);
+    z-index: -1;
   }
   .wrap:hover .image-content {
     width: 30vmin;

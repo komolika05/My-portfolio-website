@@ -1,7 +1,11 @@
 import React from 'react'
 import './Card.scss'
 
-function Card({ projectName, projectSubtitle, title, text }) {
+function Card({ projectName, projectSubtitle, title, text, projectLink }) {
+  const handleButtonClick = () => {
+    window.open(projectLink)
+  }
+
   return (
     <div class="wrap animate pop">
       <div class="overlay">
@@ -29,6 +33,9 @@ function Card({ projectName, projectSubtitle, title, text }) {
       <div class="text-para">
         <p>{title}</p>
         <p>{text}</p>
+        <button class="project-button" onClick={handleButtonClick}>
+          View Project
+        </button>
       </div>
     </div>
   )
