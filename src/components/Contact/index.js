@@ -2,6 +2,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import Letter from './letter'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -46,9 +47,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in full-time opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am looking for full-time opportunities - internships would also
+            work. However, if you have any other requests or questions, feel
+            free to reach out to me using filing the below form. Thankyou :)
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -91,6 +92,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <Letter />
       </div>
     </>
   )

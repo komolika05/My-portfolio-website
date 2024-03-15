@@ -33,14 +33,24 @@ const About = () => {
           />
         </h1>
         <p>
-          Starting my journey in finance industry and then getting to know about coding world, I got passionate about coding. I started with basic HTML , CSS and by the time move forward with advance technologies such as React, Redux, MERN, etc. 
+          Starting my journey in finance industry and then getting to know about
+          coding world, I got passionate about coding. I started with basic HTML
+          , CSS and by the time move forward with advance technologies such as
+          React, Redux, MERN, etc.
         </p>
         <p>
           I'm quiet confident, naturally curious, and perpetually working on
           improving my chops one design problem at a time.
         </p>
         <p>
-          I am a finance graduate with tech skillset, looking for some great
+          I am a recent graduate with a passion for building innovative web
+          applications. Skilled in full-stack development using HTML, CSS, React
+          (including React Hooks and Context API & Rest APIs), Redux, MERN stack
+          (MongoDB, Express.js, React.js, Node.js), SQL, and Python.
+        </p>
+        <p>
+          Successfully completed 3 internships, gaining 9 month experience in
+          all aspects of software development. looking for some great
           opprtunities to learn something new.
         </p>
       </div>
