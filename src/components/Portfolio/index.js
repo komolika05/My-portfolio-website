@@ -41,15 +41,13 @@ function Portfolio() {
             }
           />
           <Card
-            projectName={'My-Playlist'}
-            projectSubtitle={'React MP3 Audio Player'}
-            title={
-              'A player where user can upload their MP3 files and create their own playlist.'
-            }
+            projectName={'Electrify-It'}
+            projectSubtitle={'Generate report dashboard'}
+            title={'User can generate reports and filter out data'}
             text={
-              'Managed localStorage of the Player, so that after reloading the page user can still access their created playlist.'
+              'The data is comming from the backend via REST APIs and so it is easy to fliter and sort the reports. '
             }
-            projectLink={'https://main--reactmp3player.netlify.app/'}
+            projectLink={'https://electrify-it-frontend.vercel.app/reports'}
           />
           <Card
             projectName={'SpaceVue'}
@@ -59,6 +57,17 @@ function Portfolio() {
             }
             text={'User can even sort the data according to the filters.'}
             projectLink={'https://space-vue-nu.vercel.app/'}
+          />
+          <Card
+            projectName={'SharePal'}
+            projectSubtitle={'My order section'}
+            title={
+              'My order section where use can track the progress of its orders, used Material UI for search bar'
+            }
+            text={
+              'User can even raise the ticket if there is any issue with the order.'
+            }
+            projectLink={'https://sharepal-my-orders.vercel.app/'}
           />
         </div>
       </div>
