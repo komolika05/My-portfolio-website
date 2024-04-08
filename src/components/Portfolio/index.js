@@ -47,7 +47,7 @@ function Portfolio() {
             text={
               'The data is comming from the backend via REST APIs and so it is easy to fliter and sort the reports. '
             }
-            projectLink={'https://electrify-it-frontend.vercel.app/reports'}
+            projectLink={'http://13.71.41.129/reports'}
           />
           <Card
             projectName={'SpaceVue'}
